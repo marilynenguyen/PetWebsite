@@ -1,5 +1,0 @@
-1:steven:dog:female:0-12months:Chihuahua
-2:steven:cat:female:6-10months:Bengal
-3:steven:dog:male:11-15years:ShibaInu
-4:steven:dog:female:1-5months:Chihuahua
-5:steven:dog:female:1-5months:Chihuahua
