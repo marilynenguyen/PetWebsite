@@ -1,0 +1,7 @@
+steven:abc123
+admin:admin123
+petitjus:jimin22
+marilyne:password12
+angela:123abc
+mylene:123mm
+joni:egg123

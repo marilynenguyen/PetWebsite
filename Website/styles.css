@@ -1,0 +1,259 @@
+/*HTML elements************************************************************/
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    margin:0;
+    background-color: #FFE3E1;
+    font-family: arial;
+}
+
+/*Header section **********************************************************/
+header {
+    background-color: #B8E8FC;
+    padding: 10px;
+    width: 100vw;
+}
+
+#title {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#logo {
+    width: 50px;
+}
+
+/*Side menu section ******************************************************/
+
+#menu a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    border: solid 1px;
+    border-color: #E3ACF9;
+}
+
+#menu {
+    background-color:#E5E0FF;
+    display: block;
+    margin: 0;
+    border: none;
+    width: 150px;
+    height: 100vh;
+}
+
+#menu a:link {
+    color: black;
+}
+
+#menu a:visited {
+    color: black;
+}
+
+#menu a:hover {
+    background-color: #AF7AB3;
+    color: white;
+}
+
+#menu a:active {
+    background-color: #A685E2;
+}
+
+/*Content section ******************************************************/
+#content-area{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/*Homepage section *****************************************************/
+
+#homepage{
+position : absolute; 
+bottom: 200px; 
+left: 200px; 
+text-align: justify;
+margin-right: 20px;
+overflow: hidden;
+}
+
+#home-image {
+    width: 150px;
+    bottom: 2px;
+    position: relative;
+}
+
+/*Browse Available Pets section ****************************************/
+#browse{
+    position: absolute;
+    left: 200px;
+    bottom: 500px; 
+}
+.browse-pets{
+    border-radius:50%;
+    width:200px;
+    position: relative;
+      
+}
+
+#pet1{
+    position: absolute; 
+    top:-115px;
+}
+
+#info1{
+    position: absolute; 
+    left: 200px; 
+    bottom: -23px;
+}
+
+#pet2{
+    position: absolute;
+    padding-top:60px;
+}
+
+#info2{
+    position: absolute; 
+    left: 200px; 
+    bottom: -45px;
+}
+
+
+#pet3{
+    position : absolute;   
+    padding-top:220px;
+
+}
+
+#info3{
+    position: absolute; 
+    left: 200px; 
+    bottom: -85px;
+}
+
+/*Find a dog/cat section **********************************************/
+#find-form{
+    position: absolute; 
+    left: 200px; 
+    bottom: 100px; 
+}
+
+#find {
+    margin-top: 20px;
+    width: 90%;
+    border: 2px solid #E3ACF9;
+}
+
+.question {
+    font-weight: bold;
+    color: black;
+}
+
+.button {
+    margin: 10px;
+}
+
+#find-image {
+    width: 90px;
+    position: relative;
+    left: 400px;
+}
+
+/*Dog Care section ***************************************************/
+
+#dog-care-section {
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    bottom: 60px; 
+
+}
+#dog-image {
+    width: 250px;
+    position: relative;
+    left: 450px;
+    bottom: 210px;
+}
+
+/*Cat Care section **************************************************/
+#cat-care-section {
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    bottom: 130px; 
+
+}
+#cat-image {
+    width: 220px;
+    position: relative;
+    left: 450px;
+    bottom: 180px;
+}
+
+/*Have a pet to give away section **********************************/
+
+#give-image {
+    width: 200px;
+}
+
+
+#give-form{
+    left: 300px;
+    bottom: -350px;
+	width: 40rem;
+	padding: 2em;
+	position: absolute;
+}
+
+#info{
+    border: 2px solid #E3ACF9;
+}
+
+/*Contact us section **********************************************/
+#contacts {
+    position: absolute; 
+    left: 200px; 
+    bottom:300px; 
+    align-items: center; 
+
+}
+
+/*Footer section **************************************************/
+
+/*Statement section ***********************************************/
+#statement{
+    position: absolute; 
+    left: 140px; 
+    bottom:530px; 
+}
+
+#bottom {
+    padding: 15px; 
+    text-align: center;
+    background-color: #B8E8FC;
+    position: fixed; 
+    display: block;
+    bottom: 0;
+    width: 100vw;
+}
+
+#bottom a:link {
+    color: black;
+}
+
+#bottom  a:visited {
+    color: black;
+}
+
+#bottom a:hover {
+    color: #6096B4;
+}
+
+#bottom a:active {
+    color: purple;
+}
